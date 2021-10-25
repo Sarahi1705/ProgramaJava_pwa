@@ -17,7 +17,7 @@
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="?menu=3">
         <span class="icon is-small">
          <i class="fas fa-music"></i>
         </span>
@@ -25,7 +25,7 @@
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="?menu=4">
         <span class="icon is-small">
          <i class="fas fa-envelope-square"></i>
         </span>
@@ -33,7 +33,7 @@
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="?menu=5">
         <span class="icon is-small">
           <i class="fas fa-venus-mars"></i>
         </span>
@@ -50,6 +50,7 @@
     </li>
   </ul>
 </nav>
+<%--
 <section class="hero is-danger">
 <div class="hero-body">
 <div class="container">
@@ -63,3 +64,4 @@ Sarahi Del Jesus Martinez Gomez
 </div>
 </section>
 <br>
+--%>
