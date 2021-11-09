@@ -11,48 +11,48 @@
     if (request.getParameter("menu") != null) {
 %>
 
-<div class="columns is-mobile">
-    <div class="column is-three-fifths is-offset-one-fifth">
+<div class="columns is-mobile ">
+    <div class="column is-three-fifths is-offset-one-fifth sesion">
         <div class="box">
             <br>
             <div class="columns is-flex is-centered">
-               
-                    
-                        <figure class="image is-128x128">
-                            <img class="is-rounded" src="images/Ema.png">
-                        </figure>
-                   
-                </div>
-            
+
+
+                <figure class="image is-128x128">
+                    <img class="is-rounded" src="images/Ema.png">
+                </figure>
+
+            </div>
+
             <br>
-
-            <div class="field">
-                <p class="control has-icons-left has-icons-right">
-                    <input class="input" type="email" placeholder="Email">
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-envelope"></i>
-                    </span>
-                    <span class="icon is-small is-right">
-                        <i class="fas fa-check"></i>
-                    </span>
-                </p>
-            </div>
-            <div class="field">
-                <p class="control has-icons-left">
-                    <input class="input" type="password" placeholder="Password">
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-lock"></i>
-                    </span>
-                </p>
-            </div>
-            <div class="field">
-                <p class="control">
-                    <button class="button is-success">
-                        Login
-                    </button>
-                </p>
-            </div>
-
+            <form action="testservlet" method="post">
+                <div class="field">
+                    <p class="control has-icons-left has-icons-right">
+                        <input class="input" type="email" placeholder="Email">
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span class="icon is-small is-right">
+                            <i class="fas fa-check"></i>
+                        </span>
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control has-icons-left">
+                        <input class="input" type="password" placeholder="Password">
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-lock"></i>
+                        </span>
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control">
+                        <button class="button is-success">
+                            Login
+                        </button>
+                    </p>
+                </div>
+            </form>
         </div>
     </div>
 </div>

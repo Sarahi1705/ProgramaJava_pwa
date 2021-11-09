@@ -1,8 +1,9 @@
+ <link rel="stylesheet" href="css/style_header.css"/>
 <nav class="breadcrumb" aria-label="breadcrumbs">
   <ul>
     <li>
       <a href="?menu=1">
-        <span class="icon is-small">
+        <span class="icon is-small ">
            <i class="fas fa-home" aria-hidden="true"></i> 
         </span>
         <span>Inicio</span>

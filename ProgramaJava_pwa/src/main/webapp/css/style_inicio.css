@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 oct 2021, 22:08:26
+    Author     : Sarah
+*/
+
+
+div.column{
+    background-color: blanchedalmond;
+}
+div.derecha{
+    background-color: powderblue;
+}
+div.todo{
+    background-color: powderblue;
+}
+h1 {
+  color: #6c2eb9;
+  font-weight: normal;
+  font-size: 40px;
+  font-family: Arial;
+  text-align: center;
+}
